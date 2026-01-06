@@ -15,7 +15,7 @@ const Competition = () => {
 
   return (
     <div className='min-h-screen pt-32'>
-        <Card title="">
+        <Card title={competition.name}>
             <CompetitionContent {...competition} />
         </Card>
     </div>

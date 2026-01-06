@@ -57,9 +57,6 @@ const CompetitionContent = (competition: Competition) => {
       {/* Copied from About Hero Section */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 font-iceland md:h-96">
         <div className="space-y-4 w-full md:w-3/6">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-left">
-            {competition.name}
-          </h1>
           <h2 className="text-2xl sm:text-3xl text-greenLight text-left">
             {competition.subtitle}
           </h2>
