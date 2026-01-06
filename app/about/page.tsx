@@ -11,7 +11,7 @@ export default function About() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl tracking-tight">
               CHIMERA 2025
             </h1>
-            <h2 className="text-2xl sm:text-3xl text-[#66e9fa]">
+            <h2 className="text-2xl sm:text-3xl text-greenLight">
               March 1st, Ashoka University, Sonipat
             </h2>
           </div>
@@ -28,7 +28,7 @@ export default function About() {
 
         {/* Introduction */}
         <div className="space-y-8 font-iceland mt-12">
-          <p className="text-base sm:text-lg lg:text-xl text-[#98a0b3] leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-greyText leading-relaxed">
             IEEE Ashoka is proud to announce Chimera, an inter-university
             celebration of excellence in STEM research and innovation. Our
             objective is to showcase the work of our university&apos;s students
@@ -38,7 +38,7 @@ export default function About() {
           </p>
 
           {/* Features List */}
-          <ul className="space-y-4 text-[#98a0b3] pl-4 sm:pl-8">
+          <ul className="space-y-4 text-greyText pl-4 sm:pl-8">
             {[
               "It includes a wide array of disciplines, aligned with IEEE's overall goal",
               "It integrates research into the festival, drawing from Ashoka's rich research-oriented background",
@@ -48,7 +48,7 @@ export default function About() {
                 key={index}
                 className="flex items-start gap-2 text-base sm:text-lg lg:text-xl"
               >
-                <span className="text-[#66e9fa]">•</span>
+                <span className="text-greytext">•</span>
                 <span>{item}</span>
               </li>
             ))}
@@ -81,10 +81,10 @@ export default function About() {
         {/* Why Chimera Section */}
         <div className="py-8 sm:py-12 space-y-6 font-iceland">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl">WHY CHIMERA?</h2>
-          <p className="text-lg sm:text-xl italic text-[#98a0b3]">
+          <p className="text-lg sm:text-xl italic text-greyText">
             chimera [kahy-meer-uh]
           </p>
-          <p className="text-base sm:text-lg lg:text-xl text-[#98a0b3] leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-greyText leading-relaxed">
             The chimera, in Greek mythology, is a creature composed of parts
             from different animals, often embodying a fantastical amalgamation
             of features. The chimera is depicted as a fire-breathing monster
@@ -104,7 +104,7 @@ export default function About() {
         {/* IEEE Section */}
         <div className="py-8 sm:py-12 space-y-6 font-iceland">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl">IEEE@Ashoka</h2>
-          <p className="text-base sm:text-lg lg:text-xl text-[#98a0b3] leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl text-greyText leading-relaxed">
             The IEEE Ashoka Student Branch was founded to foster holistic
             development among STEM students at Ashoka University. Our mission is
             to encourage excellence and collaboration across STEM disciplines,

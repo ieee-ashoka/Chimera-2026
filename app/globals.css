@@ -1,5 +1,5 @@
 /* globals.css */
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -9,12 +9,18 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --green-light: #92f244;
+  --green-dark: #145e28;
+  --grey-text: #c8d1e8;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --green-light: #92f244;
+    --green-dark: #145e28;
+    --grey-text: #c8d1e8;
   }
 }
 
@@ -63,7 +69,6 @@
   font-style: italic;
 }
 
-
 /* Global Defaults */
 html,
 body {
@@ -108,24 +113,25 @@ main .content {
   text-align: start;
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid #99a1b328;
+  border: 1px solid #488f6428;
   word-wrap: break-word;
-  background: rgba(12, 9, 60, 0.7);
-  background: -webkit-radial-gradient(
+  background: rgb(191, 172, 98);
+  /* background: -webkit-radial-gradient(
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7)
-  );
-  background: radial-gradient(
+  ); */
+  /* background: radial-gradient(
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7)
-  );
+  ); */
+  background: rgb(191, 172, 98);
   box-shadow: 0 0px 35px rgba(0, 0, 0, 0.25), 0 0px 20px rgba(0, 0, 0, 0.22);
 }
 
 .glitch {
-  color: #f8f8f8;
+  color: rgb(191, 172, 98);
   font-size: 5.2rem;
   text-align: center;
   position: relative;

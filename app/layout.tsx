@@ -3,8 +3,8 @@ import { Metadata } from "next";
 import LayoutWrapper from "./LayoutWrapper";
 
 export const metadata: Metadata = {
-  title: "Chimera 2025",
-  description: "Chimera 2025 - IEEE Ashoka Student Branch",
+  title: "Chimera 2026",
+  description: "Chimera 2026 - IEEE Ashoka Student Branch",
   keywords: ["Chimera", "IEEE", "STEM Fest"],
   authors: [{ name: "IEEE IT" }],
   // viewport: "width=device-width, initial-scale=1",
@@ -14,8 +14,8 @@ export const metadata: Metadata = {
     locale: "en_IE",
     url: "https://chimera.ieee-ashoka.in/",
     title: "Chimera 2025",
-    description: "Chimera 2025 - IEEE Ashoka Student Branch",
-    siteName: "Chimera 2025",
+    description: "Chimera 2026 - IEEE Ashoka Student Branch",
+    siteName: "Chimera 2026",
   },
   twitter: {
     card: "summary_large_image",
@@ -24,11 +24,11 @@ export const metadata: Metadata = {
         url: "https://chimera.ieee-ashoka.in/images/logo.png",
         width: 1200,
         height: 630,
-        alt: "Chimera 2025 - IEEE Ashoka Student Branch",
+        alt: "Chimera 2026 - IEEE Ashoka Student Branch",
       },
     ],
-    title: "Chimera 2025",
-    description: "Chimera 2025 - IEEE Ashoka Student Branch",
+    title: "Chimera 2026",
+    description: "Chimera 2026 - IEEE Ashoka Student Branch",
   },
 };
 

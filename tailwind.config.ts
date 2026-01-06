@@ -13,6 +13,9 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        greenLight: "var(--green-light)",
+        greenDark: "var(--green-dark)",
+        greyText: "var(--grey-text)",
       },
       fontFamily: {
         octopost: ["var(--font-octopost)"],

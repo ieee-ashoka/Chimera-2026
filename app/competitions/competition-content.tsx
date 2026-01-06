@@ -60,7 +60,7 @@ const CompetitionContent = (competition: Competition) => {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-left">
             {competition.name}
           </h1>
-          <h2 className="text-2xl sm:text-3xl text-[#66e9fa] text-left">
+          <h2 className="text-2xl sm:text-3xl text-greenLight text-left">
             {competition.subtitle}
           </h2>
 
@@ -75,7 +75,7 @@ const CompetitionContent = (competition: Competition) => {
           <div className="flex flex-col space-y-0 text-left">
             <a
               href={competition.regLink}
-              className="text-xl bg-[#66e9fa] p-3 mb-2 text-slate-800 w-3/4 transition-transform hover:scale-110 rounded-lg"
+              className="text-xl bg-greenLight p-3 mb-2 text-slate-800 w-3/4 transition-transform hover:scale-110 rounded-lg"
               target="_blank"
             >
               Register Here!{" "}
