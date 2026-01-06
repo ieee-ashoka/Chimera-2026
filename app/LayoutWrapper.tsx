@@ -121,11 +121,12 @@ export default function LayoutWrapper({
 
   return (
     <html lang="en" className="h-full w-full">
-      <body className="flex flex-col min-h-screen w-full bg-[url('/images/test.jpg')] bg-cover bg-center bg-fixed">
+      <body className="flex flex-col min-h-screen w-full bg-[url('/images/test.jpg')] bg-cover bg-center bg-fixed" suppressHydrationWarning>
         <ChimeraNavbar />
         <canvas
           id="dotsCanvas"
           className="fixed top-0 left-0 w-full h-full z-0 pointer-events-none"
+          suppressHydrationWarning
         />
         <div className="flex-1 relative z-10 overflow-y-auto" id="scroll-view">
           <main>{children}</main>

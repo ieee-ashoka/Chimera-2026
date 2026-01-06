@@ -11,9 +11,11 @@ export default function Home() {
     minutes: 0,
     seconds: 0,
   });
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    const deadline = new Date("March 1 2025 09:00").getTime();
+    setIsMounted(true);
+    const deadline = new Date("February 7 2026 09:00").getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -58,13 +60,33 @@ export default function Home() {
         IEEE Ashoka&apos;s premiere intercollegiate STEM festival
       </h2>
 
-      <div className="grid grid-cols-2 md:flex gap-3 md:gap-4 font-mono mb-8">
-        {[
-          { value: timeLeft.days, label: "days" },
-          { value: timeLeft.hours, label: "hrs" },
-          { value: timeLeft.minutes, label: "mins" },
-          { value: timeLeft.seconds, label: "secs" },
-        ].map((item) => (
+      {!isMounted ? (
+        <div className="grid grid-cols-2 md:flex gap-3 md:gap-4 font-mono mb-8">
+          {[
+            { value: 0, label: "days" },
+            { value: 0, label: "hrs" },
+            { value: 0, label: "mins" },
+            { value: 0, label: "secs" },
+          ].map((item) => (
+            <div
+              key={item.label}
+              className="w-16 h-16 md:w-20 md:h-20 border border-white rounded-full flex flex-col items-center justify-center relative"
+            >
+              <p className="text-xl md:text-2xl text-white m-0">{item.value}</p>
+              <span className="absolute -bottom-3 -right-3 w-10 h-10 md:w-12 md:h-12 bg-[#243b5580] rounded-full text-white text-[10px] md:text-xs uppercase flex items-center justify-center">
+                {item.label}
+              </span>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <div className="grid grid-cols-2 md:flex gap-3 md:gap-4 font-mono mb-8">
+          {[
+            { value: timeLeft.days, label: "days" },
+            { value: timeLeft.hours, label: "hrs" },
+            { value: timeLeft.minutes, label: "mins" },
+            { value: timeLeft.seconds, label: "secs" },
+          ].map((item) => (
           <div
             key={item.label}
             className="w-16 h-16 md:w-20 md:h-20 border border-white rounded-full flex flex-col items-center justify-center relative"
@@ -75,7 +97,8 @@ export default function Home() {
             </span>
           </div>
         ))}
-      </div>
+        </div>
+      )}
 
       <Link href="competitions" className="w-full max-w-xs px-4">
         <InteractiveHoverButton className="w-full py-4 text-lg md:text-xl font-semibold tracking-wider">
