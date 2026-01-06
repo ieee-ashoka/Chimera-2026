@@ -12,6 +12,7 @@
   --green-light: #92f244;
   --green-dark: #145e28;
   --grey-text: #c8d1e8;
+  --inner-background: rgb(191, 172, 98);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -115,7 +116,7 @@ main .content {
   padding-bottom: 30px;
   border: 1px solid #488f6428;
   word-wrap: break-word;
-  background: rgb(191, 172, 98);
+  background: var(--inner-background);
   /* background: -webkit-radial-gradient(
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7),
@@ -126,7 +127,7 @@ main .content {
     rgba(12, 9, 60, 0.7),
     rgba(12, 9, 60, 0.7)
   ); */
-  background: rgb(191, 172, 98);
+  background: var(--inner-background);
   box-shadow: 0 0px 35px rgba(0, 0, 0, 0.25), 0 0px 20px rgba(0, 0, 0, 0.22);
 }
 
