@@ -6,9 +6,9 @@ export default function About() {
     <div className="min-h-screen bg-center bg-fixed flex justify-center items-start py-24 px-4 sm:px-6 lg:px-8">
       <Card title="About">
         {/* Hero Section */}
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 font-iceland">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 im-fell-regular">
           <div className="space-y-4 w-full md:w-2/3">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl tracking-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl tan-harmoni-regular tracking-tight">
               CHIMERA 2025
             </h1>
             <h2 className="text-2xl sm:text-3xl text-greenLight">
@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <div className="w-48 h-48 sm:w-64 sm:h-64 relative flex-shrink-0">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-recolour.png"
               alt="Chimera Logo"
               fill
               priority
@@ -27,7 +27,7 @@ export default function About() {
         </div>
 
         {/* Introduction */}
-        <div className="space-y-8 font-iceland mt-12">
+        <div className="space-y-8 im-fell-regular mt-12">
           <p className="text-base sm:text-lg lg:text-xl text-greyText leading-relaxed">
             IEEE Ashoka is proud to announce Chimera, an inter-university
             celebration of excellence in STEM research and innovation. Our
@@ -68,7 +68,7 @@ export default function About() {
               "We will have multiple high-stakes competitions with prize money...",
           },
         ].map((section, index) => (
-          <div key={index} className="py-8 sm:py-12 font-iceland">
+          <div key={index} className="py-8 sm:py-12 im-fell-regular">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-4">
               {section.title}
             </h2>
@@ -79,8 +79,8 @@ export default function About() {
         ))} */}
 
         {/* Why Chimera Section */}
-        <div className="py-8 sm:py-12 space-y-6 font-iceland">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl">WHY CHIMERA?</h2>
+        <div className="py-8 sm:py-12 space-y-6 im-fell-regular">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl tan-harmoni-regular">WHY CHIMERA?</h2>
           <p className="text-lg sm:text-xl italic text-greyText">
             chimera [kahy-meer-uh]
           </p>
@@ -102,8 +102,8 @@ export default function About() {
         </div>
 
         {/* IEEE Section */}
-        <div className="py-8 sm:py-12 space-y-6 font-iceland">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl">IEEE@Ashoka</h2>
+        <div className="py-8 sm:py-12 space-y-6 im-fell-regular">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl tan-harmoni-regular">IEEE@Ashoka</h2>
           <p className="text-base sm:text-lg lg:text-xl text-greyText leading-relaxed">
             The IEEE Ashoka Student Branch was founded to foster holistic
             development among STEM students at Ashoka University. Our mission is

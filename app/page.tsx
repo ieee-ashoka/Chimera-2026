@@ -56,7 +56,7 @@ export default function Home() {
         </sub>
       </h1>
 
-      <h2 className="text-lg md:text-2xl font-iceland text-[#cccccc] mb-8 text-center max-w-2xl">
+      <h2 className="text-lg md:text-2xl im-fell-regular text-[#cccccc] mb-8 text-center max-w-2xl">
         IEEE Ashoka&apos;s premiere intercollegiate STEM festival
       </h2>
 

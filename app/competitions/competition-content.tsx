@@ -53,19 +53,19 @@ const CompetitionContent = (competition: Competition) => {
   const totalPool = competition.pool.reduce((s, v) => s + v.amount, 0);
 
   return (
-    <div className="text-center mt-10 font-iceland">
+    <div className="text-center mt-10 im-fell-regular">
       {/* Copied from About Hero Section */}
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 font-iceland md:h-96">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 im-fell-regular md:h-96">
         <div className="space-y-4 w-full md:w-3/6">
           <h2 className="text-2xl sm:text-3xl text-greenLight text-left">
             {competition.subtitle}
           </h2>
 
-          <p className="text-xl text-left font-light font-iceland">
+          <p className="text-xl text-left font-light im-fell-regular">
             {competition.pitchString}
           </p>
 
-          <p className="text-2xl text-left font-bold font-iceland">
+          <p className="text-2xl text-left font-bold im-fell-regular">
             Total Prize Pool: INR {totalPool}!
           </p>
 
@@ -101,7 +101,7 @@ const CompetitionContent = (competition: Competition) => {
       </div>
 
       {/* Body */}
-      <div className="space-y-8 font-iceland mt-12 text-base sm:text-lg lg:text-xl text-[#d3dbf0] leading-relaxed text-left mb-4">
+      <div className="space-y-8 im-fell-regular mt-12 text-base sm:text-lg lg:text-xl text-[#d3dbf0] leading-relaxed text-left mb-4">
         <h1 className="text-4xl text-white circularstd sm:text-5xl lg:text-5xl tracking-tight">
           Additional Details
         </h1>

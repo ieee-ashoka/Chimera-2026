@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import "./globals.css";
 import ChimeraNavbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 export default function LayoutWrapper({
   children,
@@ -121,7 +122,14 @@ export default function LayoutWrapper({
 
   return (
     <html lang="en" className="h-full w-full">
-      <body className="flex flex-col min-h-screen w-full bg-greenDark bg-cover bg-center bg-fixed" suppressHydrationWarning>
+      <body className="flex flex-col min-h-screen w-full bg-transparent bg-cover bg-center bg-fixed" suppressHydrationWarning>
+        <Image
+          src="/images/background.png"
+          alt="Background"
+          fill // makes the image fill the parent
+          style={{ objectFit: 'cover', zIndex: -1 }} // use the style prop for objectFit and zIndex
+          priority // optional: loads the image with high priority
+        />
         <ChimeraNavbar />
         {/* <canvas
           id="dotsCanvas"

@@ -15,7 +15,7 @@ type TeamSectionProps = {
 const TeamSection = ({ title, members }: TeamSectionProps) => {
   return (
     <div>
-      <h2 className="text-2xl sm:text-3xl text-center mb-6 sm:mb-8 font-iceland">
+      <h2 className="text-2xl sm:text-3xl text-center mb-6 sm:mb-8 im-fell-regular">
         {title}
       </h2>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-8">
@@ -33,10 +33,10 @@ const TeamSection = ({ title, members }: TeamSectionProps) => {
                 height={100}
               />
             </div>
-            <h3 className="text-sm sm:text-xl font-semibold font-iceland">
+            <h3 className="text-sm sm:text-xl font-semibold im-fell-regular">
               {member.name}
             </h3>
-            <p className="text-xs sm:text-base text-gray-300 font-iceland">
+            <p className="text-xs sm:text-base text-gray-300 im-fell-regular">
               {member.desig}
             </p>
           </div>
