@@ -30,23 +30,23 @@ export const Faculty = [
   
   export const CoreTeam = [
     {
-      name: "Santripta Sharma",
-      imageUrl: "/images/team/Santripta Sharma.jpeg",
+      name: "Saachi Moudgal",
+      imageUrl: "/images/team/Saachi Moudgal.jpg",
       desig: "Chairperson",
-    },
-    {
-      name: "Vidur Kaushik",
-      imageUrl: "/images/team/Vidur.jpg",
-      desig: "Vice-Chairperson",
     },
     {
       name: "Agnim Agarwal",
       imageUrl: "/images/team/Agnim Agarwal.jpg",
+      desig: "Vice-Chairperson",
+    },
+    {
+      name: "Dheer Jhaveri",
+      imageUrl: "/images/team/Dheer Jhaveri.jpeg",
       desig: "Secretary",
     },
     {
-      name: "Trsha Harish",
-      imageUrl: "/images/team/Trsha Harish.jpeg",
+      name: "Mishti Rathod",
+      imageUrl: "/images/team/Mishti Rathod.jpeg",
       desig: "Treasurer",
     },
     // Add more as needed
@@ -56,11 +56,16 @@ export const Faculty = [
     {
       name: "Shivansh Verma",
       imageUrl: "/images/team/shivansh_verma.jpeg",
-      desig: "Co-Director, IT",
+      desig: "Co-Director, Projects",
     },
     {
       name: "Sashwat Dhanuka",
       imageUrl: "/images/team/Sashwat Dhanuka.jpg",
+      desig: "Co-Director, Projects",
+    },
+    {
+      name: "Gayatri Taneja",
+      imageUrl: "/images/team/Gayatri Taneja.jpeg",
       desig: "Co-Director, IT",
     },
     {
@@ -107,12 +112,12 @@ export const Faculty = [
       desig: "Co-Director, Events and Operations",
     },
     {
-      name: "Saachi Moudgal",
-      imageUrl: "/images/team/Saachi Moudgal.jpg",
+      name: "Riday Chatterjee",
+      imageUrl: "/images/team/Riday Chatterjee.jpg",
       desig: "Co-Director, Events and Operations",
     },
     {
-      name: "Mishti Rathod",
+      name: "Aarushi Ravishankar",
       imageUrl: "/images/team/Mishti Rathod.jpeg",
       desig: "Co-Director, Events and Operations",
     },
@@ -166,13 +171,13 @@ export const Faculty = [
   
   export const PRteam = [
     {
-      name: "Kashyap J",
-      imageUrl: "/images/team/Kashyap J.jpg",
+      name: "Shivanshi Singh",
+      imageUrl: "/images/team/Shivanshi Singh.jpg",
       desig: "Co-Director, PR",
     },
     {
-      name: "Tamanna Ail",
-      imageUrl: "/images/team/Tamanna Ail.jpeg",
+      name: "Anjashi Ghosh",
+      imageUrl: "/images/team/Anjashi Ghosh.jpeg",
       desig: "Co-Director, PR",
     },
     {
@@ -209,12 +214,12 @@ export const Faculty = [
   
   export const GrowthTeam = [
     {
-      name: "Rhea Wali",
-      imageUrl: "/images/team/Rhea Wali.jpg",
+      name: "Roshni Pai",
+      imageUrl: "/images/team/Roshni Pai.jpeg",
       desig: "Co-Director, Growth",
     },
     {
-      name: "Anisha Jain",
+      name: "Shrividya",
       imageUrl: "/images/team/Anisha Jain.jpeg",
       desig: "Co-Director, Growth",
     },
