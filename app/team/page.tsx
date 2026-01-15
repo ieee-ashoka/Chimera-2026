@@ -22,9 +22,9 @@ const TeamSection = ({ title, members }: TeamSectionProps) => {
         {members.map((member, index) => (
           <div
             key={index}
-            className="text-center bg-gradient-to-br from-[#5783bb] via-[#4f50af] to-[#8327c3] rounded-xl sm:rounded-2xl shadow-lg p-3 sm:p-6 transform transition-transform duration-300 hover:scale-105"
+            className="text-center bg-greenLight rounded-xl sm:rounded-2xl shadow-lg p-3 sm:p-6 transform transition-transform duration-300 hover:scale-105"
           >
-            <div className="w-16 h-16 sm:w-32 sm:h-32 mx-auto mb-2 sm:mb-4 rounded-full overflow-hidden border-2 sm:border-4 border-cyan-400">
+            <div className="w-16 h-16 sm:w-32 sm:h-32 mx-auto mb-2 sm:mb-4 rounded-full overflow-hidden border-2 sm:border-4 border-greenDark">
               <Image
                 src={member.imageUrl}
                 alt={member.name}
@@ -33,10 +33,10 @@ const TeamSection = ({ title, members }: TeamSectionProps) => {
                 height={100}
               />
             </div>
-            <h3 className="text-sm sm:text-xl font-semibold im-fell-regular">
+            <h3 className="text-sm sm:text-xl font-semibold im-fell-regular text-green-800">
               {member.name}
             </h3>
-            <p className="text-xs sm:text-base text-gray-300 im-fell-regular">
+            <p className="text-xs sm:text-base im-fell-regular">
               {member.desig}
             </p>
           </div>

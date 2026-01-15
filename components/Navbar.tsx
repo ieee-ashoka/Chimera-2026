@@ -49,12 +49,12 @@ export default function ChimeraNavbar() {
     { name: "About", href: "/about" },
     { name: "Competitions", href: "/competitions" },
     // { name: "Speakers", href: "/speakers" },
-    // { name: "Schedule", href: "/schedule" },
+    { name: "Schedule", href: "/schedule" },
     // { name: "Raffle", href: "/raffle" },
     { name: "Team", href: "/team" },
     // { name: "Sponsors", href: "/sponsors" },
     // { name: "FAQ", href: "/faq" },
-    { name: "Contact", href: "/contact" },
+    // { name: "Contact", href: "/contact" },
   ];
 
   return (
@@ -89,7 +89,7 @@ export default function ChimeraNavbar() {
               {item.name}
             </Link>
           ))}
-          <Link href="/competitions">
+          <Link href="https://unstop.com/college-fests/chimera-2026-ieee-ashoka-student-branch-432327" target="_blank">
             <InteractiveHoverButton>Register</InteractiveHoverButton>
           </Link>
         </div>
@@ -177,7 +177,8 @@ export default function ChimeraNavbar() {
                 transition={{ delay: menuItems.length * 0.1, duration: 0.2 }}
               >
                 <Link
-                  href="/register"
+                  href="https://unstop.com/college-fests/chimera-2026-ieee-ashoka-student-branch-432327"
+                  target="_blank"
                   className="block w-full text-center bg-gradient-to-br from-[#5783bb] via-[#4f50af] to-[#8327c3] text-white py-2 px-4 rounded-full transition-colors mt-4"
                 >
                   Register
