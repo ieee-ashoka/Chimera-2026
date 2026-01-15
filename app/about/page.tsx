@@ -11,8 +11,8 @@ export default function About() {
             <h1 className="text-4xl sm:text-5xl lg:text-6xl tan-harmoni-regular tracking-tight">
               CHIMERA 2025
             </h1>
-            <h2 className="text-2xl sm:text-3xl text-[#e89897]">
-              March 1st, Ashoka University, Sonipat
+            <h2 className="text-2xl sm:text-3xl text-greenDark">
+              February 7th & 8th, Ashoka University, Sonipat
             </h2>
           </div>
           <div className="w-48 h-48 sm:w-64 sm:h-64 relative flex-shrink-0">

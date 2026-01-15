@@ -102,7 +102,7 @@ const CompetitionContent = (competition: Competition) => {
 
       {/* Body */}
       <div className="space-y-8 im-fell-regular mt-12 text-base sm:text-lg lg:text-xl text-[#d3dbf0] leading-relaxed text-left mb-4">
-        <h1 className="text-4xl text-white circularstd sm:text-5xl lg:text-5xl tracking-tight">
+        <h1 className="text-4xl text-greenLight circularstd sm:text-5xl lg:text-5xl tracking-tight">
           Additional Details
         </h1>
         {competition.additionalDetails && (
@@ -110,7 +110,7 @@ const CompetitionContent = (competition: Competition) => {
         )}
         {competition.rounds.length > 0 && (
           <>
-            <h2 className="text-3xl mt-8 text-white circularstd sm:text-4xl lg:text-4xl tracking-tight">
+            <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
               Rounds
             </h2>
             <div className="flex flex-col gap-8 justify-start align-center w-full">
@@ -122,7 +122,7 @@ const CompetitionContent = (competition: Competition) => {
         )}
         {competition.judgingCriteria !== undefined && (
           <>
-            <h2 className="text-3xl mt-8 text-white circularstd sm:text-4xl lg:text-4xl tracking-tight">
+            <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
               Judging Criteria
             </h2>
             <ul className="list-disc ml-6">
@@ -151,7 +151,7 @@ const CompetitionContent = (competition: Competition) => {
             </ul>
           </>
         )}
-        <h2 className="text-3xl mt-8 text-white circularstd sm:text-4xl lg:text-4xl tracking-tight">
+        <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
           Prizes
         </h2>
         <ul className="list-disc ml-6">
