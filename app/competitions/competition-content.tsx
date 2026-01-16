@@ -20,7 +20,7 @@ const RoundCard = (round: Round) => {
 
   return (
     <div className="flex flex-row justify-start items-center md:gap-8 flex-shrink-0">
-      <div className="bg-gray-200 sm:rounded-md md:rounded-xl sm:w-3/6 md:w-1/6 min-h-48 flex flex-col text-slate-800 text-center sm:px-1 md:px-4 justify-center">
+      <div className="bg-greenLight sm:rounded-md md:rounded-xl sm:w-3/6 md:w-1/6 min-h-48 flex flex-col text-black text-center sm:px-1 md:px-4 justify-center">
         <h1 className="sm:text-2xl md:text-3xl text-wrap">
           {singleDate
             ? round.startDate.getDate()
@@ -28,13 +28,13 @@ const RoundCard = (round: Round) => {
         </h1>
         <p>{months[round.startDate.getMonth()]}</p>
       </div>
-      <div className="md:w-full min-h-48 bg-gray-200 sm:rounded-md md:rounded-xl p-3">
-        <h1 className="text-2xl mb-2 text-slate-900">{round.title}</h1>
-        <p className="text-slate-600">{round.description}</p>
+      <div className="md:w-full min-h-48 bg-greenLight sm:rounded-md md:rounded-xl p-3">
+        <h1 className="text-2xl mb-2 text-black">{round.title}</h1>
+        <p className="text-black">{round.description}</p>
         {round.submissionInstructions && (
           <>
             <br />
-            <p className="text-slate-600">
+            <p className="text-black">
               <span className="font-bold">Submission</span>:{" "}
               {round.submissionInstructions}
             </p>
@@ -57,11 +57,11 @@ const CompetitionContent = (competition: Competition) => {
       {/* Copied from About Hero Section */}
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 im-fell-regular md:h-96">
         <div className="space-y-4 w-full md:w-3/6">
-          <h2 className="text-2xl sm:text-3xl text-greenLight text-left">
+          <h2 className="text-2xl sm:text-3xl text-greenDark text-left">
             {competition.subtitle}
           </h2>
 
-          <p className="text-xl text-left font-light im-fell-regular">
+          <p className="text-xl text-black text-left font-light im-fell-regular">
             {competition.pitchString}
           </p>
 
@@ -72,15 +72,15 @@ const CompetitionContent = (competition: Competition) => {
           <div className="flex flex-col space-y-0 text-left">
             <a
               href={competition.regLink}
-              className="text-xl bg-greenLight p-3 mb-2 text-slate-800 w-3/4 transition-transform hover:scale-110 rounded-lg"
+              className="text-xl bg-greenLight p-3 mb-2 text-black w-3/4 transition-transform hover:scale-110 rounded-lg"
               target="_blank"
             >
               Register Here!{" "}
-              <span className="text-slate-600">
+              <span className="text-black">
                 Deadline: {competition.regDeadline.toDateString()}
               </span>
             </a>
-            <span className="text-xl text-left text-slate-200">
+            <span className="text-xl text-left text-black">
               Team Size: {teamSizeString}
             </span>
           </div>
@@ -102,15 +102,15 @@ const CompetitionContent = (competition: Competition) => {
 
       {/* Body */}
       <div className="space-y-8 im-fell-regular mt-12 text-base sm:text-lg lg:text-xl text-[#d3dbf0] leading-relaxed text-left mb-4">
-        <h1 className="text-4xl text-greenLight circularstd sm:text-5xl lg:text-5xl tracking-tight">
+        <h1 className="text-4xl text-greenDark circularstd sm:text-5xl lg:text-5xl tracking-tight">
           Additional Details
         </h1>
         {competition.additionalDetails && (
-          <p>{competition.additionalDetails}</p>
+          <p className="text-black">{competition.additionalDetails}</p>
         )}
         {competition.rounds.length > 0 && (
           <>
-            <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
+            <h2 className="text-3xl mt-8 text-greenDark circularstd sm:text-4xl lg:text-4xl tracking-tight">
               Rounds
             </h2>
             <div className="flex flex-col gap-8 justify-start align-center w-full">
@@ -122,24 +122,24 @@ const CompetitionContent = (competition: Competition) => {
         )}
         {competition.judgingCriteria !== undefined && (
           <>
-            <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
+            <h2 className="text-3xl mt-8 text-greenDark circularstd sm:text-4xl lg:text-4xl tracking-tight">
               Judging Criteria
             </h2>
             <ul className="list-disc ml-6">
               {competition.judgingCriteria.map((item, index) => {
                 if (typeof item.description === "string") {
                   return (
-                    <li key={index} className="text-xl list-item">
+                    <li key={index} className="text-xl list-item text-black">
                       {item.title}: {item.description}
                     </li>
                   );
                 } else {
                   return (
-                    <li key={index} className="text-xl">
-                      {item.title}:
+                    <li key={index} className="text-xl text-black">
+                      <b>{item.title}:</b>
                       <ul className="ml-6">
                         {item.description.map((subitem, subindex) => (
-                          <li className="text-xl" key={subindex}>
+                          <li className="text-xl text-black" key={subindex}>
                             {subitem}
                           </li>
                         ))}
@@ -151,12 +151,12 @@ const CompetitionContent = (competition: Competition) => {
             </ul>
           </>
         )}
-        <h2 className="text-3xl mt-8 text-greenLight circularstd sm:text-4xl lg:text-4xl tracking-tight">
+        <h2 className="text-3xl mt-8 text-greenDark circularstd sm:text-4xl lg:text-4xl tracking-tight">
           Prizes
         </h2>
         <ul className="list-disc ml-6">
           {competition.pool.map((item, index) => (
-            <li key={index} className="text-xl">
+            <li key={index} className="text-xl text-black">
               {item.title}: INR {item.amount}
             </li>
           ))}
