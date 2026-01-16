@@ -52,7 +52,7 @@ const Team: React.FC = () => {
       <Card title="Team">
         <div className="space-y-12 sm:space-y-16">
           <TeamSection title="Core Team" members={CoreTeam} />
-          <TeamSection title="IT Team" members={ITteam} />
+          <TeamSection title="IT & Projects Team" members={ITteam} />
           <TeamSection title="Events Team" members={EventsTeam} />
           <TeamSection title="PR Team" members={PRteam} />
           <TeamSection title="Growth Team" members={GrowthTeam} />
