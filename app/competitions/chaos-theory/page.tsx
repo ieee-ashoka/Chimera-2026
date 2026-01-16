@@ -7,7 +7,7 @@ import { competitions, type Competition } from '../competitions'
 import CompetitionContent from '../competition-content'
 
 const Competition = () => {
-  const competition = competitions.find((c) => c.id === 'astro-photography')
+  const competition = competitions.find((c) => c.id === 'chaos-theory')
 
   if (!competition) {
     return null

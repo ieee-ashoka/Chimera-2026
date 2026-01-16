@@ -47,16 +47,18 @@ const RoundCard = (round: Round) => {
 
 const CompetitionContent = (competition: Competition) => {
   const teamSizeString =
-    competition.teamSize !== undefined
-      ? `${competition.teamSize[0]} - ${competition.teamSize[1]}`
-      : "Unrestricted";
+    competition.teamSize === undefined
+      ? "Unrestricted"
+      : typeof competition.teamSize === "number"
+        ? `${competition.teamSize}`
+        : `${competition.teamSize[0]} - ${competition.teamSize[1]}`;
   const totalPool = competition.pool.reduce((s, v) => s + v.amount, 0);
 
   return (
     <div className="text-center mt-10 im-fell-regular">
       {/* Copied from About Hero Section */}
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 im-fell-regular md:h-96">
-        <div className="space-y-4 w-full md:w-3/6">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 im-fell-regular">
+        <div className="space-y-4 w-full">
           <h2 className="text-2xl sm:text-3xl text-greenDark text-left">
             {competition.subtitle}
           </h2>
@@ -72,7 +74,7 @@ const CompetitionContent = (competition: Competition) => {
           <div className="flex flex-col space-y-0 text-left">
             <a
               href={competition.regLink}
-              className="text-xl bg-greenLight p-3 mb-2 text-black w-3/4 transition-transform hover:scale-110 rounded-lg"
+              className="text-xl bg-greenLight p-3 mb-2 text-black w-1/2 transition-transform hover:scale-110 rounded-lg text-center"
               target="_blank"
             >
               Register Here!{" "}
@@ -85,19 +87,6 @@ const CompetitionContent = (competition: Competition) => {
             </span>
           </div>
         </div>
-        <motion.div
-          whileHover={{ scale: 1.55 }}
-          transition={{ duration: 0.4 }}
-          className="sm:w-64 sm:h-64 md:h-full md:w-128 relative flex-shrink-0"
-        >
-          <Image
-            src={competition.posterURL ?? competition.thumbnailURL}
-            alt="competition poster"
-            fill
-            priority
-            className="object-contain"
-          />
-        </motion.div>
       </div>
 
       {/* Body */}
