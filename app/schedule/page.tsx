@@ -12,17 +12,17 @@ const scheduleData = [
       },
       {
         time: "10:15 AM",
-        title: "Opening Ceremony & Panel 1",
+        title: "Opening Ceremony & Panel",
         venue: "AC02-007"
       },
       {
         time: "11:15 AM – 1:30 PM",
-        title: "Chaos Theory Population Modelling",
+        title: "Chaos Theory: Population Modelling",
         venue: "AC02-013"
       },
       {
         time: "11:15 AM – 1:30 PM",
-        title: "Phy Comp (Earthquake Proof Structure Building)",
+        title: "Richter: Earthquake Proof Structure Building",
         venue: "AC02-008 & AC02-009"
       },
       {
@@ -37,17 +37,17 @@ const scheduleData = [
       },
       {
         time: "3:30 PM – 4:45 PM",
-        title: "Talk 1: Prof Sujit",
+        title: "Talk 1",
         venue: "AC02-013"
       },
       {
         time: "5:00 PM – 5:30 PM",
-        title: "Phy Comp (Earthquake Proof Structure Building)",
+        title: "Richter: Presentations and Testing",
         venue: "AC02-008 & AC02-009"
       },
       {
         time: "5:30 PM – 6:45 PM",
-        title: "Debate with Orators",
+        title: "Agora: Debate",
         venue: "AC02-013"
       }
     ]
@@ -67,12 +67,12 @@ const scheduleData = [
       },
       {
         time: "10:00 AM",
-        title: "Drug Discovery",
+        title: "Panacea: Drug Discovery",
         venue: "AC02-013"
       },
       {
         time: "11:00 AM – 1:30 PM",
-        title: "Nexopolis Case Competition",
+        title: "Nexopolis: Case Competition (Round 1)",
         venue: "AC02-007"
       },
       {
@@ -82,17 +82,17 @@ const scheduleData = [
       },
       {
         time: "2:00 PM – 5:00 PM",
-        title: "Orion's Lens: Astrophotography + Project Showcase",
+        title: "Orion's Lens: Astrophotography & Project Showcase",
         venue: "Book Statue Area"
       },
       {
         time: "2:00 PM – 5:00 PM",
-        title: "Nexopolis Case Competition (Round 2)",
+        title: "Nexopolis: Case Competition (Round 2)",
         venue: "AC02-007"
       },
       {
         time: "2:00 PM – 5:00 PM",
-        title: "Workshop (Day 2)",
+        title: "Workshop",
         venue: "AC02-008 & AC02-009"
       },
       {
@@ -100,11 +100,6 @@ const scheduleData = [
         title: "Prize Distribution",
         venue: "AC02-007"
       },
-      {
-        time: "5:15 PM – 6:45 PM",
-        title: "Rakesh Sharma???",
-        venue: ""
-      }
     ]
   }
 ];
