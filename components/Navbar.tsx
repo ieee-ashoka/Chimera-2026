@@ -89,7 +89,7 @@ export default function ChimeraNavbar() {
               {item.name}
             </Link>
           ))}
-          <Link href="https://unstop.com/college-fests/chimera-2026-ieee-ashoka-student-branch-432327" target="_blank">
+          <Link href="https://linktr.ee/CHIMERA2026" target="_blank">
             <InteractiveHoverButton>Register</InteractiveHoverButton>
           </Link>
         </div>

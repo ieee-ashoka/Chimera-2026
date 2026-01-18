@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       )}
 
-      <Link href="https://unstop.com/college-fests/chimera-2026-ieee-ashoka-student-branch-432327" target="_blank" className="w-full max-w-xs px-4">
+      <Link href="https://linktr.ee/CHIMERA2026" target="_blank" className="w-full max-w-xs px-4">
         <InteractiveHoverButton className="w-full py-4 text-lg md:text-xl font-semibold tracking-wider">
           Register Now
         </InteractiveHoverButton>
