@@ -17,9 +17,14 @@ export default function Home() {
     setIsMounted(true);
     const deadline = new Date("February 7 2026 09:00").getTime();
 
-    const timer = setInterval(() => {
+    const updateTimer = () => {
       const now = new Date().getTime();
       const t = deadline - now;
+
+      if (t < 0) {
+        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        return false;
+      }
 
       setTimeLeft({
         days: Math.floor(t / (1000 * 60 * 60 * 24)),
@@ -27,10 +32,19 @@ export default function Home() {
         minutes: Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)),
         seconds: Math.floor((t % (1000 * 60)) / 1000),
       });
+      return true;
+    };
 
-      if (t < 0) {
+    // Calculate immediately on mount
+    const shouldContinue = updateTimer();
+    
+    if (!shouldContinue) return;
+
+    // Then update every second
+    const timer = setInterval(() => {
+      const shouldContinue = updateTimer();
+      if (!shouldContinue) {
         clearInterval(timer);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
       }
     }, 1000);
 
