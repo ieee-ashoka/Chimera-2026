@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+//import React, { useEffect } from "react";
 import "./globals.css";
 import ChimeraNavbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
