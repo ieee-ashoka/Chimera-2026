@@ -9,7 +9,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12 im-fell-regular">
           <div className="space-y-4 w-full md:w-2/3">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl tan-harmoni-regular tracking-tight">
-              CHIMERA 2025
+              CHIMERA 2026
             </h1>
             <h2 className="text-2xl sm:text-3xl text-greenDark">
               February 7th & 8th, Ashoka University, Sonipat

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IE",
     url: "https://chimera.ieee-ashoka.in/",
-    title: "Chimera 2025",
+    title: "Chimera 2026",
     description: "Chimera 2026 - IEEE Ashoka Student Branch",
     siteName: "Chimera 2026",
   },

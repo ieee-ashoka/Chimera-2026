@@ -56,7 +56,7 @@ export default function Home() {
       <div className="relative w-[100px] h-[100px] md:w-[150px] md:h-[150px]">
         <Image
           src="/images/logo.png"
-          alt="Chimera 2025"
+          alt="Chimera 2026"
           fill
           priority
           className="object-contain"
@@ -66,7 +66,7 @@ export default function Home() {
       <h1 className="glitch text-3xl md:text-5xl lg:text-[5.2rem] mb-8 mt-6">
         Chimera{" "}
         <sub className="text-lg md:text-2xl absolute -bottom-10 md:-bottom-2 -right-6 md:-right-16">
-          2025
+          2026
         </sub>
       </h1>
 

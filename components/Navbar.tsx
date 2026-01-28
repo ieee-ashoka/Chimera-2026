@@ -71,7 +71,7 @@ export default function ChimeraNavbar() {
         <Link href="/" className="flex-shrink-0">
           <Image
             src="/images/logo.png"
-            alt="Chimera 2025"
+            alt="Chimera 2026"
             width={100}
             height={100}
             className="h-24 w-auto"
