@@ -371,7 +371,7 @@ export const competitions: Competition[] = [
     subtitle: "Astrophotography Competition",
     thumbnailURL: "/images/competitions/orion.png",
     regLink: "https://unstop.com/p/orions-lens-chimera-2026-ashoka-university-sonepat-haryana-1621331",
-    regDeadline: new Date(2026, 0, 20, 23, 59),
+    regDeadline: new Date(2026, 0, 25, 23, 59),
     teamSize: 1,
     pitchString:
       "Share your passion for the heavens at the Astrophotography Competition! Present your best reduced and processed images to an audience of fellow astrophotographers! Showcase your astrophotography skills across three categories: Solar System, Deep Sky, and Wide-Field Wonders.",
@@ -382,15 +382,15 @@ export const competitions: Competition[] = [
         title: "Screening Round",
         description: "Submit your best astrophotography images for screening by expert jury",
         submissionInstructions: "Submit up to 2 images per category (Solar System, Deep Sky, Wide-Field Wonders) for a total of 6 images. All images must be captured and attributed by you.",
-        startDate: new Date(2026, 0, 16, 8, 0),
-        endDate: new Date(2026, 0, 20, 23, 59),
+        startDate: new Date(2026, 0, 25, 8, 0),
+        endDate: new Date(2026, 0, 25, 23, 59),
       },
       {
         title: "Presentation Round",
         description: "Submit writeup about your imaging process for judging by expert panel",
         submissionInstructions: "Submit a short writeup describing your imaging process and technique. This will be judged along with your images by a panel of renowned astrophysicists.",
-        startDate: new Date(2026, 0, 21, 8, 0),
-        endDate: new Date(2026, 0, 25, 23, 59),
+        startDate: new Date(2026, 2, 8, 8, 0),
+        endDate: new Date(2026, 2, 8, 23, 59),
       },
     ],
     judgingCriteria: [
