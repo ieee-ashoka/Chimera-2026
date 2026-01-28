@@ -92,7 +92,7 @@ export const competitions: Competition[] = [
     redirect: true,
     name: "Project Showcase",
     subtitle: "An interdisciplinary platform for STEM students to present innovative ideas",
-    thumbnailURL: "/images/competitions/agora.png",
+    thumbnailURL: "/images/competitions/project-showcase.png",
     regLink: "https://unstop.com/p/paper-presentation-chimera-2026-ashoka-university-sonepat-haryana-1622011",
     regDeadline: new Date(2026, 0, 31, 23, 59),
     teamSize: [1, 3],
