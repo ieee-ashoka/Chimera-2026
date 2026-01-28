@@ -113,7 +113,7 @@ export const competitions: Competition[] = [
         description: "Present your project to judges and audience",
         submissionInstructions: undefined,
         startDate: new Date(2026, 1, 16, 8, 0),
-        endDate: new Date(2026, 1, 16, 17, 0),
+        endDate: new Date(2026, 1, 6, 17, 0),
       },
     ],
     judgingCriteria: [
