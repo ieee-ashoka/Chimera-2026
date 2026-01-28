@@ -105,8 +105,8 @@ export const competitions: Competition[] = [
         title: "Project Submission",
         description: "Submit your project details, poster, and prototype/video if applicable",
         submissionInstructions: "Submit posters, video clips (up to 3 minutes), or prototype models accompanied by posters",
-        startDate: new Date(2026, 0, 16, 8, 0),
-        endDate: new Date(2026, 1, 10, 23, 59),
+        startDate: new Date(2026, 1, 6, 8, 0),
+        endDate: new Date(2026, 1, 6, 23, 59),
       },
       {
         title: "Presentation Round",
@@ -153,7 +153,7 @@ export const competitions: Competition[] = [
     pitchString:
       "Join Agora and showcase your critical thinking, reasoning, and public speaking skills. Engage in constructive debates on contemporary STEM and societal issues.",
     additionalDetails:
-      "The competition consists of elimination rounds with debates happening simultaneously across multiple rooms. Topics will be provided on the spot and will revolve around current and thought-provoking themes such as ecological and social costs, AI and society, research ethics, and other contemporary STEM and societal issues. Each debate round will last approximately 20 minutes. 8 teams participating.",
+      "The competition consists of elimination rounds with debates happening simultaneously across multiple rooms. Topics will be provided on the spot and will revolve around current and thought-provoking themes such as ecological and social costs, AI and society, research ethics, and other contemporary STEM and societal issues. Each debate round will last approximately 20 minutes.",
     rounds: [
       {
         title: "Debate Rounds",
@@ -382,8 +382,8 @@ export const competitions: Competition[] = [
         title: "Screening Round",
         description: "Submit your best astrophotography images for screening by expert jury",
         submissionInstructions: "Submit up to 2 images per category (Solar System, Deep Sky, Wide-Field Wonders) for a total of 6 images. All images must be captured and attributed by you.",
-        startDate: new Date(2026, 0, 25, 8, 0),
-        endDate: new Date(2026, 0, 25, 23, 59),
+        startDate: new Date(2026, 1, 6, 8, 0),
+        endDate: new Date(2026, 1, 6, 23, 59),
       },
       {
         title: "Presentation Round",
