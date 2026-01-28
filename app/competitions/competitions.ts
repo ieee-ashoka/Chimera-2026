@@ -40,7 +40,7 @@ export const competitions: Competition[] = [
     subtitle: "Earthquake Proof Structure Building Challenge",
     thumbnailURL: "/images/competitions/richter.png",
     regLink: "https://unstop.com/p/richter-chimera-2026-ashoka-university-sonepat-haryana-1621259",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: [2, 4],
     pitchString:
       "Teams will construct popsicle-stick structures on a crust-mimicking baseplate that simulates real earthquake conditions. This challenge tests understanding of structural engineering principles, material efficiency, stability, and innovation.",
@@ -94,7 +94,7 @@ export const competitions: Competition[] = [
     subtitle: "An interdisciplinary platform for STEM students to present innovative ideas",
     thumbnailURL: "/images/competitions/project-showcase.png",
     regLink: "https://unstop.com/p/paper-presentation-chimera-2026-ashoka-university-sonepat-haryana-1622011",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: [1, 3],
     pitchString:
       "Present research-driven, innovative ideas that propose solutions for a Utopian Land, focusing on sustainability, efficiency, and precision. Present theoretical concepts, experimental research, or functional prototypes.",
@@ -148,7 +148,7 @@ export const competitions: Competition[] = [
     subtitle: "A Debate Competition",
     thumbnailURL: "/images/competitions/agora.png",
     regLink: "https://unstop.com/p/agora-chimera-2026-ashoka-university-sonepat-haryana-1621262",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: 3,
     pitchString:
       "Join Agora and showcase your critical thinking, reasoning, and public speaking skills. Engage in constructive debates on contemporary STEM and societal issues.",
@@ -195,7 +195,7 @@ export const competitions: Competition[] = [
     subtitle: "A case-based STEM challenge simulating early stages of drug discovery",
     thumbnailURL: "/images/competitions/panacea.png",
     regLink: "https://unstop.com/p/panacea-chimera-2026-ashoka-university-sonepat-haryana-1621316?login_as=candidate",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: [2, 3],
     pitchString:
       "Analyze biological data, evaluate molecular trade-offs, and interpret experimental results to decide which drug candidate should move forward. This competition emphasizes logical reasoning, data interpretation, and scientific justification.",
@@ -245,7 +245,7 @@ export const competitions: Competition[] = [
     subtitle: "Urban Planning & Public Health Case Competition",
     thumbnailURL: "/images/competitions/nexopolis.png",
     regLink: "https://unstop.com/p/nexopolis-chimera-2026-ashoka-university-sonepat-haryana-1621320",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: [3, 4],
     pitchString:
       "Develop a comprehensive public health infrastructure plan for a city, then adapt it to handle potential disasters and public health emergencies. Demonstrate strategic thinking and flexibility.",
@@ -306,7 +306,7 @@ export const competitions: Competition[] = [
     subtitle: "A Population Modeling Challenge",
     thumbnailURL: "/images/competitions/chaos.png",
     regLink: "https://unstop.com/p/chaos-theory-chimera-2026-ashoka-university-sonepat-haryana-1621250",
-    regDeadline: new Date(2026, 0, 31, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: [2, 4],
     pitchString:
       "Analyze invasive species data, develop population models to predict growth, create visualizations, and propose effective mitigation strategies. Present your findings to judges and audience.",
@@ -371,7 +371,7 @@ export const competitions: Competition[] = [
     subtitle: "Astrophotography Competition",
     thumbnailURL: "/images/competitions/orion.png",
     regLink: "https://unstop.com/p/orions-lens-chimera-2026-ashoka-university-sonepat-haryana-1621331",
-    regDeadline: new Date(2026, 0, 25, 23, 59),
+    regDeadline: new Date(2026, 1, 6, 23, 59),
     teamSize: 1,
     pitchString:
       "Share your passion for the heavens at the Astrophotography Competition! Present your best reduced and processed images to an audience of fellow astrophotographers! Showcase your astrophotography skills across three categories: Solar System, Deep Sky, and Wide-Field Wonders.",
